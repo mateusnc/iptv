@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{90F67323-6B54-4C05-98A1-65D08AA19A39}</ProjectGuid>
+    <ProjectGuid>{7E4D4C40-0634-4729-AEEC-66962485382C}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Iptv</RootNamespace>
@@ -170,7 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\M3uParser\M3uParser\M3uParser.csproj">
-      <Project>{6fddd46d-77f8-4fcf-9aa9-6eb8232e025b}</Project>
+      <Project>{e48fedfb-29cc-4a58-9f5e-c5a2705750a8}</Project>
       <Name>M3uParser</Name>
     </ProjectReference>
   </ItemGroup>

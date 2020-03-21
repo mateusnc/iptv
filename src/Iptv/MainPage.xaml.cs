@@ -40,7 +40,7 @@ namespace Iptv
             var parser = new M3uParser.M3uParser();
             var channelList = await parser.ParseFrom(new Uri(url));
 
-            foreach(var media in channelList.Medias)
+            foreach (var media in channelList.Medias)
                 Medias.Add(media);
         }
 

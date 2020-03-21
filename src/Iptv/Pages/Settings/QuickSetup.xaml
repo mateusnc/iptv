@@ -11,6 +11,5 @@
     <Grid>
         <Button x:Name="ButtonOK" Content="OK" Margin="635,0,0,0" Click="ButtonOK_Click" />
         <TextBox x:Name="ChannelListUrl" HorizontalAlignment="Left" Margin="295,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="298"/>
-
     </Grid>
 </Page>

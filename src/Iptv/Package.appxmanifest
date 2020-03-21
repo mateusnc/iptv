@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e3a7fded-084c-412b-8d20-31a0a86bff1d"
+    Name="3d37bee5-1949-461e-93a7-3a40006deec8"
     Publisher="CN=Mateus Nogueira"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e3a7fded-084c-412b-8d20-31a0a86bff1d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="3d37bee5-1949-461e-93a7-3a40006deec8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Iptv</DisplayName>
