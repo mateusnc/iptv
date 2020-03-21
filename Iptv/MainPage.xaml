@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Iptv.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Iptv"
+    xmlns:m3u="using:M3uParser"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <GridView ItemsSource="{x:Bind Medias}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick">
+            <GridView.ItemTemplate>
+                <DataTemplate x:Name="ImageTextDataTemplate2" x:DataType="m3u:M3uMedia">
+                    <StackPanel Margin="12" AutomationProperties.Name="{x:Bind Title}">
+                        <Image Source="Placeholder.png" Height="50" Width="100" Stretch="UniformToFill"/>
+                        <StackPanel Margin="0,12">
+                            <TextBlock Text="{x:Bind Title}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+            <!--<GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsWrapGrid MaximumRowsOrColumns="5" Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>-->
+        </GridView>
+    </Grid>
+</Page>

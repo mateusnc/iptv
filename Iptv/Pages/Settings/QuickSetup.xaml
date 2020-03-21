@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Iptv.Pages.Settings.QuickSetup"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Iptv.Pages.Settings"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="ButtonOK" Content="OK" Margin="635,0,0,0" Click="ButtonOK_Click" />
+        <TextBox x:Name="ChannelListUrl" HorizontalAlignment="Left" Margin="295,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="298"/>
+
+    </Grid>
+</Page>
