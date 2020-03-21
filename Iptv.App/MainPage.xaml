@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Iptv.App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Iptv.App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button
+            x:Name="Play"
+            HorizontalAlignment="Center" Click="Play_Click"
+        >
+            Play
+        </Button>
+        <!--<MediaPlayerElement
+            x:Name="Video"
+            Source="http://89.187.173.219:80/iptv78017675/61985/3"
+            Width="300" Margin="40,0,620,0"
+            AutoPlay="True"
+        />
+        <MediaTransportControls HorizontalAlignment="Left" Height="0" Margin="285,254,0,0" VerticalAlignment="Top" Width="145"/>-->
+    </Grid>
+</Page>
